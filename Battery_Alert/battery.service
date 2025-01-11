@@ -4,7 +4,7 @@ After=graphical.target
 
 [Service]
 Type=simple
-ExecStart= /usr/bin/bash /home/anshj/bat_alert.sh
+ExecStart= /usr/bin/bash <path to the script>
 Restart=always
 Environment=DISPLAY=:0
 Environment=XAUTHORITY=/run/user/%U/gdm/Xauthority
