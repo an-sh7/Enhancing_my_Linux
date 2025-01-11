@@ -1,0 +1,15 @@
+[Unit]
+Description=Battery Charge Monitor
+After=graphical.target
+
+[Service]
+Type=simple
+ExecStart= /usr/bin/bash /home/anshj/bat_alert.sh
+Restart=always
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/run/user/%U/gdm/Xauthority
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=default.target
