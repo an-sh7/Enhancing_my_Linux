@@ -107,4 +107,3 @@ To run the script as a background service:
 1. **Error Handling**: The script currently lacks proper error handling for cases where battery data might be unavailable. I'll improve this by adding error checks.
 2. **Notification System Compatibility**: The script relies on `notify-send` for notifications, which may not be available on all systems. I'll ensure compatibility across different systems.
 3. **Threshold Customization**: The low and full battery thresholds are hardcoded in the script. Future updates will allow these values to be passed as command-line arguments or loaded from a configuration file. (Working on this 🙂)
-4. **Performance Optimization**: The script checks the battery status continuously without delay, which can be resource-intensive. I will introduce a delay between checks to improve performance.
