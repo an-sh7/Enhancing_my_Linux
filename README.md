@@ -1,4 +1,4 @@
-# Custom Scripts and Enhancements
+# Custom Scripts and Enhancements   
 
 This repository contains various custom scripts and enhancements I have developed or plan to develop in the future.
 
@@ -20,7 +20,7 @@ A script designed to monitor your laptop's battery status and alert you when the
 
 A script that recursively scans open web directories and collects all file links, saving them to a text file for easy downloading or further processing. It is useful for extracting files from public directory listings, such as documents, archives, or other resources. The script filters out irrelevant links and stays within the specified directory structure.
 
-### 3. [Bypass_PastingBlock](Bypass_PastingBlock)
+### 3. [Bypass_CopyPastingBlock](Bypass_CopyPastingBlock)
 
 A script that bypasses paste-blocking mechanisms on certain websites or applications. It allows users to paste content into fields that typically restrict this action, improving usability and accessibility. The script works by intercepting and overriding the blocking behavior without compromising security.
 
